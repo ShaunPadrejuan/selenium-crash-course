@@ -2,7 +2,6 @@
 # ## Imports
 
 # %%
-import import_ipynb
 from locator import *
 from element import BasePageElement
 

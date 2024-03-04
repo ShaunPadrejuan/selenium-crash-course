@@ -6,7 +6,6 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service 
-import import_ipynb
 import page
 
 # %% [markdown]
@@ -29,8 +28,12 @@ class PythonOrgSearch(unittest.TestCase): # Test multiple aspects of a website w
     #     print("This will not run since this is not a test. Test should be the first word in the function")
     
     def test_title(self):
-        mainPage = page.MainPage()
+        mainPage = page.MainPage(self.driver)
         assert mainPage.is_title_matches()  # assert = see if condition in the right is true. Tell if test case is passed or failed
+        mainPage.search_text_element = "pycon"
+        mainPage.click_go_button()
+        search_result_page = page.SearchResultPage(self.driver)
+        assert search_result_page.is_results_found()
 
     def tearDown(self): # once everything is done
         self.driver.close()
