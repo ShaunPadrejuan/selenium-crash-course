@@ -12,3 +12,8 @@ The above link has the resources for the WebDriver and the Test Chrome browser.
 ```
 
 For easier access, place the chromedriver in the Program Files (x86)
+
+```
+https://selenium-python.readthedocs.io/
+```
+Official Python-Selenium Documentation
