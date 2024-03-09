@@ -16,4 +16,4 @@ For easier access, place the chromedriver in the Program Files (x86)
 ```
 https://selenium-python.readthedocs.io/
 ```
-Official Python-Selenium Documentation
+Official Selenium-Python Documentation
