@@ -17,3 +17,10 @@ For easier access, place the chromedriver in the Program Files (x86)
 https://selenium-python.readthedocs.io/
 ```
 Official Selenium-Python Documentation
+
+# Selenium IDE Crash Course
+
+```
+
+```
+
