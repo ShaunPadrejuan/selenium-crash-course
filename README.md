@@ -73,7 +73,7 @@ Use "selenium-side-runner" as the call to the extensions, and use the PATH going
 selenium-side-runner --config-file C:\Selenium\MySecondProject\config.yaml C:\Selenium\MySecondProject\MySecondProject.side
 ```
 
-For a sample of a yaml file, check the official documentations or the sample file in the source code.
+For a sample of a yaml file, check the official documentations or the sample file in the folder "MySecondProject".
 
 NOTE: Apparently, if blocks in the selenium code causes the test case to fail, will look into this.
 
