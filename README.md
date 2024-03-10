@@ -53,6 +53,9 @@ https://www.selenium.dev/selenium-ide/docs/en/introduction/command-line-runner
 
 ```
 C:\Users\{USER}\AppData\Roaming\npm\node_modules\chromedriver\lib\chromedriver
+```
+
+```
 C:\Users\{USER}\AppData\Roaming\npm
 ```
 
@@ -79,4 +82,13 @@ NOTE: Apparently, if blocks in the selenium code causes the test case to fail, w
 ### Phase 3: How to export the Selenium IDE test to multiple languages
 1. Click on the settings of either a test or a test suite.
 2. Select export, and from there, there are multiples ways to export as seen below:
+
 ![Sample picture of exports](/images/image.png)
+
+3. In the case of Python, make sure to use this command
+
+```
+pip install pytest
+```
+
+to run the test cases.
